@@ -22,4 +22,21 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	// $data = $this->my_model->select_data([
+	// 	'field' => '*',
+	// 	'table' => 'tablename',
+	// 	'where' => ['user_id' => $_SESSION['id'], 'id' => $id],
+	// 	'group' => 'coloumn name',
+	// 	'order' => ['id', 'ASC']
+	// ]);
+	// $add = $this->my_model->insert_data([
+	// 	'table' => 'tablename',
+	// 	'data' => $data
+	// ]);
+	// $update = $this->my_model->insert_data([
+	// 	'table' => 'tablename',
+	// 	'data' => $data,
+	// 	'where' => ['user_id' => $_SESSION['id'], 'id' => $id],
+	// ]);
 }
